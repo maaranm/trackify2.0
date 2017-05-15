@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="421ca50088f19b924bd3cd9def35377228cab3be">
+        <dex dex="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2a9dd16dff566620b5351d1be27b28aefc5d46ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_e115741a0b962c31e4c71da89dcaa022a9c7b95b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\exploded-aar\org.florescu.android.rangeseekbar\rangeseekbar-library\0.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b8f19036e690aaf0676a0926db48e3ebaeb12fe4">
+        <dex dex="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\transforms\dex\debug\folders\1000\10\org.florescu.android.rangeseekbar-rangeseekbar-library-0.3.0_5e184b32c373d0d8603595dfc60a15d37e7ebbe0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maara\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_fc04c312a886c38353a2240bd73852f33a4731d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_3a581cc4d5c67f693f1fb8ad0b79418e4ae17c46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_dcb395c7b1566944d35b6fd1e5a5393bea12fd99\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c8bd1b7c6b508eb327e2f405979950c8b8aca468">
+        <dex dex="C:\Users\maara\Desktop\2017-AndroidVision\Maaran Shooter Vision\shooterVision\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7126f8e21ace40a318cf123bb662d09d29b8c54c\classes.dex" />
+    </item>
+
+</items>
