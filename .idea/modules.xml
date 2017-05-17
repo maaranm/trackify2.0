@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Maaran Shooter Vision.iml" filepath="$PROJECT_DIR$/Maaran Shooter Vision.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" filepath="$PROJECT_DIR$/openCVLibrary310/openCVLibrary310.iml" />
       <module fileurl="file://$PROJECT_DIR$/shooterVision/shooterVision.iml" filepath="$PROJECT_DIR$/shooterVision/shooterVision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trackify2.iml" filepath="$PROJECT_DIR$/trackify2.iml" />
     </modules>
   </component>
 </project>
