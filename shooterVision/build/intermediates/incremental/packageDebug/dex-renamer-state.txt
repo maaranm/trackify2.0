@@ -1,7 +1,0 @@
-#Fri Jan 20 12:53:16 EST 2017
-base.0=C\:\\Users\\maara\\Desktop\\2017-AndroidVision\\Maaran Shooter Vision\\shooterVision\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7126f8e21ace40a318cf123bb662d09d29b8c54c
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\maara\\Desktop\\2017-AndroidVision\\Maaran Shooter Vision\\shooterVision\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2a9dd16dff566620b5351d1be27b28aefc5d46ee\\classes.dex
-base.1=C\:\\Users\\maara\\Desktop\\2017-AndroidVision\\Maaran Shooter Vision\\shooterVision\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_2a9dd16dff566620b5351d1be27b28aefc5d46ee
-file.0=C\:\\Users\\maara\\Desktop\\2017-AndroidVision\\Maaran Shooter Vision\\shooterVision\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7126f8e21ace40a318cf123bb662d09d29b8c54c\\classes.dex
