@@ -1,5 +1,7 @@
 package algorithms;
 
+import android.annotation.TargetApi;
+
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.MatOfPoint;
@@ -7,8 +9,11 @@ import org.opencv.core.Rect;
 import org.opencv.core.Scalar;
 import org.opencv.imgproc.Imgproc;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import features.Parameters;
 
 /**
  * Created by maara on 2017-05-17.
@@ -40,6 +45,19 @@ public class HSVTracker extends Algorithms {
         }
     }
 
+    public boolean isTracking(){
+        if(rect!= null){
+            return true;
+        }
+        return false;
+    }
+
+    public void updateParams() {
+        upperLimit = Parameters.upperThresh;
+        lowerLimit = Parameters.lowerThresh;
+    }
+
+    @Override
     public Rect rectTrack(Mat rgbaImage){
         Imgproc.cvtColor(rgbaImage,hsvMat,Imgproc.COLOR_RGB2HSV);
         Core.inRange(hsvMat,lowerLimit,upperLimit,mask);
@@ -56,16 +74,5 @@ public class HSVTracker extends Algorithms {
             }
         }
         return rect;
-    }
-
-    public boolean isTracking(){
-        if(rect!= null){
-            return true;
-        }
-        return false;
-    }
-
-    public boolean updateParams(){
-
     }
 }
