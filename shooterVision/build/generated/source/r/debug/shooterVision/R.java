@@ -1487,10 +1487,15 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int icon=0x7f020033;
-        public static final int seek_thumb_disabled=0x7f020034;
-        public static final int seek_thumb_normal=0x7f020035;
-        public static final int seek_thumb_pressed=0x7f020036;
+        public static final int ic_color_lens_white_24dp=0x7f020033;
+        public static final int ic_colorize_white_24dp=0x7f020034;
+        public static final int ic_menu_white_24dp=0x7f020035;
+        public static final int ic_menu_white_36dp=0x7f020036;
+        public static final int icon=0x7f020037;
+        public static final int icon_button=0x7f020038;
+        public static final int seek_thumb_disabled=0x7f020039;
+        public static final int seek_thumb_normal=0x7f02003a;
+        public static final int seek_thumb_pressed=0x7f02003b;
     }
     public static final class id {
         public static final int action_bar=0x7f0b0034;
@@ -1513,7 +1518,6 @@ containing a value of this type.
         public static final int beginning=0x7f0b0016;
         public static final int checkbox=0x7f0b002c;
         public static final int collapseActionView=0x7f0b001a;
-        public static final int color_blob_detection_activity_surface_view=0x7f0b0048;
         public static final int decor_content_parent=0x7f0b0032;
         public static final int default_activity_button=0x7f0b0027;
         public static final int dialog=0x7f0b001e;
@@ -1524,7 +1528,6 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f0b0025;
         public static final int expanded_menu=0x7f0b002b;
         public static final int front=0x7f0b0015;
-        public static final int hSlider=0x7f0b0043;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000d;
         public static final int icon=0x7f0b0029;
@@ -1536,12 +1539,9 @@ containing a value of this type.
         public static final int never=0x7f0b001c;
         public static final int none=0x7f0b000e;
         public static final int normal=0x7f0b000a;
-        public static final int options=0x7f0b0047;
-        public static final int presets=0x7f0b0046;
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
         public static final int radio=0x7f0b002e;
-        public static final int sSlider=0x7f0b0044;
         public static final int search_badge=0x7f0b0038;
         public static final int search_bar=0x7f0b0037;
         public static final int search_button=0x7f0b0039;
@@ -1556,14 +1556,12 @@ containing a value of this type.
         public static final int showCustom=0x7f0b000f;
         public static final int showHome=0x7f0b0010;
         public static final int showTitle=0x7f0b0011;
-        public static final int sliders=0x7f0b0042;
         public static final int split_action_bar=0x7f0b0007;
         public static final int submit_area=0x7f0b003f;
         public static final int tabMode=0x7f0b000b;
         public static final int title=0x7f0b002a;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
-        public static final int vSlider=0x7f0b0045;
         public static final int withText=0x7f0b001d;
         public static final int wrap_content=0x7f0b0020;
     }
@@ -1854,6 +1852,7 @@ containing a value of this type.
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0900e8;
         public static final int Widget_AppCompat_Toolbar=0x7f0900e9;
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0900ea;
+        public static final int iconButton=0x7f0900eb;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

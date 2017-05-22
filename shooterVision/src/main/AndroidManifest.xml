@@ -9,7 +9,7 @@
         android:icon="@drawable/icon"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
 
-        <activity android:name="maaran.ColorBlobDetectionActivity"
+        <activity android:name="maaran.MainActivity"
                   android:label="Maaran Sick Vision"
                   android:screenOrientation="landscape"
                   android:configChanges="keyboardHidden|orientation">

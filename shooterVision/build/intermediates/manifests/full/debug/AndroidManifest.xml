@@ -35,7 +35,7 @@
         android:label="Maaran Sick Vision"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         <activity
-            android:name="maaran.ColorBlobDetectionActivity"
+            android:name="maaran.MainActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="Maaran Sick Vision"
             android:screenOrientation="landscape" >
