@@ -24,6 +24,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.SurfaceView;
+import android.widget.ImageButton;
 
 import org.florescu.android.rangeseekbar.RangeSeekBar;
 
@@ -47,6 +48,9 @@ public class MainActivity extends Activity {
     private Scalar contourColor;
     private ViewGroup sliderView;
     private ViewGroup presetView;
+
+    private ViewGroup baseLayout, sideMenu, hsv;
+    private ImageButton menuButton;
 
     private RangeSeekBar hSlider;
     private RangeSeekBar sSlider;
@@ -95,6 +99,12 @@ public class MainActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.color_blob_detection_surface_view);
+
+        baseLayout = (ViewGroup) findViewById(R.id.base_layout);
+        sideMenu = (ViewGroup) findViewById(R.id.side_menu);
+        hsv = (ViewGroup) findViewById(R.id.hsv);
+
+        menuButton = (ImageButton) findViewById(R.id.menu_button);
     }
 
     @Override
@@ -125,4 +135,35 @@ public class MainActivity extends Activity {
 
     }
 
+    public void toggleSideMenu(View view) {
+        if (sideMenu.getVisibility() == View.VISIBLE) {
+            sideMenu.setVisibility(View.INVISIBLE);
+            menuButton.setVisibility(View.VISIBLE);
+        }
+        else {
+            sideMenu.setVisibility(View.VISIBLE);
+            menuButton.setVisibility(View.INVISIBLE);
+        }
+    }
+
+    public void eyeDropper(View view) {
+        //TODO eyedropper stuff
+    }
+
+    public void algorithm1(View view) {
+        //TODO change to algorithm 1
+    }
+
+    public void algorithm2(View view) {
+        //TODO change to algorithm 2
+    }
+
+    public void algorithm3(View view) {
+        //TODO change to algorithm 3
+    }
+
+    public void showHSV(View view) {
+        hsv.setVisibility(View.VISIBLE);
+        baseLayout.setVisibility(View.INVISIBLE);
+    }
 }

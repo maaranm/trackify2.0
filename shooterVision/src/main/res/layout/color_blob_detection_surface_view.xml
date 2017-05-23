@@ -7,46 +7,177 @@
     <View
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:background="#F00">
     </View>
 
     <LinearLayout
+        android:id="@+id/base_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="visible">
 
         <ImageButton
+            android:id="@+id/menu_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
-            android:layout_margin="7dp"
+            android:layout_margin="5dp"
             android:src="@drawable/ic_menu_white_24dp"
+            style="@style/iconButton"
+            android:onClick="toggleSideMenu"
             android:background="@drawable/icon_button"/>
 
         <LinearLayout
             android:gravity="end"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Camera Stuff"
                 android:onClick=""/>
             <ImageButton
+                android:contentDescription="hsv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_color_lens_white_24dp"
+                style="@style/iconButton"
+                android:background="@drawable/icon_button"
+                android:onClick="showHSV"/>
+            <ImageButton
+                android:contentDescription="area"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_color_lens_white_24dp"
                 style="@style/iconButton"
                 android:background="@drawable/icon_button"
                 android:onClick=""/>
-            <ImageButton
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/side_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_chevron_left_white_24dp"
+            android:onClick="toggleSideMenu"
+            style="@style/iconButton"
+            android:background="@drawable/icon_button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algorithm 1"
+            android:onClick="algorithm1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algorithm 2"
+            android:onClick="algorithm2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algorithm 3"
+            android:onClick="algorithm3"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eyedropper"
+            android:onClick="eyeDropper"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hsv"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8000"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:visibility="invisible">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:text="X"
+            style="@style/iconButton"
+            android:background="@drawable/icon_button"
+            android:textColor="#FFF"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+        </View>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/hsv_example">
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/sliderTitle"
+                    android:text="Hue"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/sliderTitle"
+                    android:text="Saturation"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/sliderTitle"
+                    android:text="Level"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_colorize_white_24dp"
-                style="@style/iconButton"
-                android:background="@drawable/icon_button"
-                android:onClick=""/>
+                android:orientation="vertical">
+                <org.florescu.android.rangeseekbar.RangeSeekBar
+                    android:id="@+id/hSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    rsb:defaultColor="#EEE"
+                    rsb:absoluteMaxValue="180"
+                    rsb:absoluteMinValue="0" />
+
+                <org.florescu.android.rangeseekbar.RangeSeekBar
+                    android:id="@+id/sSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    rsb:defaultColor="#EEE"
+                    rsb:absoluteMaxValue="255"
+                    rsb:absoluteMinValue="0" />
+
+                <org.florescu.android.rangeseekbar.RangeSeekBar
+                    android:id="@+id/vSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    rsb:defaultColor="#EEE"
+                    rsb:absoluteMaxValue="255"
+                    rsb:absoluteMinValue="0" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
