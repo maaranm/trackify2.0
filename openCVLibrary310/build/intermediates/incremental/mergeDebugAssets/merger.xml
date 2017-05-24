@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\Bret\AndroidStudioProjects\trackify2\openCVLibrary310\src\main\assets"/><source path="C:\Users\Bret\AndroidStudioProjects\trackify2\openCVLibrary310\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Bret\AndroidStudioProjects\trackify2\openCVLibrary310\src\debug\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="C:\Users\maara\Documents\trackify2.0\openCVLibrary310\src\main\assets"/><source path="C:\Users\maara\Documents\trackify2.0\openCVLibrary310\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\maara\Documents\trackify2.0\openCVLibrary310\src\debug\assets"/></dataSet></merger>
+>>>>>>> origin/algorithms

@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\Robotics\\AndroidStudioProjects\\Maaran Shooter Vision\\openCVLibrary310\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": []
     },
@@ -13,6 +14,9 @@
     },
     {
         "outputFile": "C:\\Users\\maara\\Desktop\\2017-AndroidVision\\Maaran Shooter Vision\\openCVLibrary310\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+=======
+        "outputFile": "C:\\Users\\maara\\Documents\\trackify2.0\\openCVLibrary310\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+>>>>>>> origin/algorithms
         "map": []
     }
 ]
